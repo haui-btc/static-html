@@ -1,7 +1,7 @@
 # static-html
+> run a static-html page in docker
 
 ## Docker commands
-> run a static-html page in docker
 
 ```bash
 docker build -t static-html .
