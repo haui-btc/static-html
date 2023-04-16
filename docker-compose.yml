@@ -6,4 +6,4 @@ services:
     container_name: static-html
     restart: always
     ports:
-      - "8085:85"
+      - "8082:80"
