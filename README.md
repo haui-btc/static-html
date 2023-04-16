@@ -44,7 +44,7 @@ docker-compose up -d
 
 Once you have the docker container up and running you can rebuild the image and recreate your container any time by running these two commands.
 
-For example, you have make a change your site. Just run these two commands on terminal.
+For example, you have make a change on your site, just run these two commands on terminal to update the website.
 ```bash
 docker-compose build
 docker-compose up -d
