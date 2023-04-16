@@ -1,5 +1,5 @@
 # static-html
-> run a static-html page in docker
+> run a static-html page with nginx using docker 
 
 ## Docker commands
 
