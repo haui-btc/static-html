@@ -1,5 +1,31 @@
 # static-html
-> run a static-html page with nginx using docker 
+> run a static-html page with nginx using docker
+```bash
+.
+|-- Dockerfile
+|-- README.md
+|-- docker-compose.yml
+`-- index.html
+```
+
+## Dockerfile
+```bash
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html
+```
+
+## docker-compose.yml
+```bash
+version: '3'
+services:
+  web:
+    image: static-html
+    build: .
+    container_name: static-html
+    restart: always
+    ports:
+      - "8082:80"
+```
 
 ## Docker commands
 
